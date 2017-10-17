@@ -1,0 +1,28 @@
+<!doctype html> <html> <head> <meta charset="utf-8"> <title>IGAMT</title> <meta name="description" content=""> <meta name="robots" content="none"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta http-equiv="Pragma" content="no-cache"> <meta http-equiv="Expires" content="0"> <meta name="viewport" content="width=device-width"> <meta name="description" content="IGAMT"> <meta name="author" content="NIST"> <style>[ng\: cloak],
+      [ng-cloak],
+      [data-ng-cloak],
+      [x-ng-cloak],
+      .ng-cloak,
+      .x- ng-cloak {
+        display: none !important;
+      }</style> <link rel="stylesheet" href="lib/material-custom/bootstrap-material-design.min.css"> <link rel="stylesheet" href="lib/material-custom/ripples.min.css"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.10b22aa8.css"> <link rel="stylesheet" href="styles/main.05d44a0f.css"> <link rel="stylesheet" type="text/css" href="lib/angular-treetable/style/jquery.treetable.css"> <link rel="stylesheet" type="text/css" href="lib/angular-treetable/style/jquery.treetable.theme.default.css"> <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet"> <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <link rel="stylesheet" href="//fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic"> <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons"> <style>body {
+        /*background-color: #F1F1F2;*/
+        /*font-family: 'Cairo', sans-serif;*/
+        font-family: RobotoDraft, Roboto, sans-serif;
+      }
+
+      * {
+        /*font-family: 'Cairo', sans-serif;*/
+        font-family: RobotoDraft, Roboto, sans-serif;
+      }
+
+      .froala-editor .image-wrapper ul li.drop-upload form input {
+        margin-left: 0;
+      }</style> <script type="text/javascript">if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+      } else {
+        top.location = self.location;
+      }</script> </head> <body ng-controller="MainCtrl" ng-app="igl" ng-init="init()" window-exit confirm-on-leave block-ui="main"> <div id="wrapper" flow-prevent-drop> <div ng-include="'views/header.html'"></div> <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]--> <div id="appcontainer" class=""> <div ng-view></div> </div> <div ng-include="'views/footer.html'"></div> <div ng-include="'views/templates.html'"></div> <div ng-include="'views/materialDialogs.html'"></div> <div ng-include="'views/edit/editDatatypes.html'"></div> <div ng-include="'views/edit/editDatatypeInLibrary.html'"></div> <ng-include src="'views/edit/editDocument.html'"></ng-include> <ng-include src="'views/edit/editProfileComponent.html'"></ng-include> <ng-include src="'views/edit/EditCompositeMessage.html'"></ng-include> <ng-include src="'views/edit/editCompositeProfile.html'"></ng-include> <ng-include src="'views/edit/editSegments.html'"></ng-include> <ng-include src="'views/edit/editMessages.html'"></ng-include> <ng-include src="'views/edit/editValueSets.html'"></ng-include> <ng-include src="'views/edit/editSections.html'"></ng-include> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <!--<script>--> <!--!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){--> <!--(A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),--> <!--r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)--> <!--}(window,document,'script','https://www.google-analytics.com/analytics.js','ga');--> <!--ga('create', 'UA-XXXXX-X');--> <!--ga('send', 'pageview');--> <!--</script>--> <script src="scripts/vendor.c6edf199.js"></script> <script src="scripts/scripts.6df1e926.js"></script> </div></body> </html>

@@ -1,0 +1,75 @@
+<style id="antiClickjack">body {
+    display: none !important;
+}</style>
+<script type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+</script>
+<script type="text/ng-template" id="EditSections.html">
+    <div ng-controller="SectionsListCtrl" ng-init="init()" class="container" ng-cloak>
+       <div class="container">
+                    <div class="page-header">
+                    <span class="header4">Section: {{section.sectionTitle}} </span>
+                        <span class="pull-right">
+         
+         <md-button title="Save Changes" type="submit" class="btn btn-raised btn-sm btn-success"
+                 ng-disabled="editForm.$invalid || !editForm.$dirty"
+                 ng-click="save()"
+                 ng-hide="viewSettings.tableReadonly">
+             <span><i class="fa fa-check fa-fw"></i> Save</span>
+         </md-button>
+        <md-button title="Cancel Changes" type="button" class="btn btn-raised btn-sm btn-warning"
+                                 ng-hide="viewSettings.tableReadonly"
+                                 ng-disabled="!editForm.$dirty"
+                                  ng-click="reset()">
+                             <span><i class="fa fa-times fa-fw"></i> Reset</span>
+        </md-button>
+                </span>
+                </div>
+                <div class="static_info">
+                 <i class="fa fa-calendar" aria-hidden="true"></i>
+				    Updated	{{section.dateUpdated | date:dateFormat}}
+                </div>
+
+
+           <md-content layout-padding>
+               <div ng-hide="isFixedSectionTitle(section)">
+
+
+               <label class="input-left igamt-label">Title*</label>
+               <md-input-container class="md-block igamt-input-block" flex-gt-sm ng-class="{'igl-has-error has-feedback' : editForm.title.$invalid}">
+                   <input type="text"
+                          ng-change="setDirty()"
+                          name="title" id="title"
+                          ng-model="section.sectionTitle"
+                          required
+                          ng-disabled="viewSettings.tableReadonly"
+                          />
+
+                   <div ng-messages="editForm.title.$invalid">
+                       <div ng-message="required">Title is required.</div>
+                   </div>
+               </md-input-container>
+
+               </div>
+               <label class="input-left igamt-label">Content</label>
+               <md-input-container class="md-block igamt-input-block" flex-gt-sm style="margin-top:20px">
+                   <div ng-if="!viewSettings.tableReadonly">
+                            <textarea froala="froalaEditorOptions" ng-model="section.sectionContents"
+                                      id="content"
+                                      name="content"
+                                      ng-change="setDirty()"></textarea>
+                   </div>
+                   <div ng-if="viewSettings.tableReadonly">
+                       <div class="fr-view">
+                           <div froala-view="section.sectionContents"></div>
+                       </div>
+                   </div>
+               </md-input-container>
+            </div>
+    </div>
+</script>

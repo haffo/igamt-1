@@ -1,0 +1,272 @@
+<style id="antiClickjack">
+    body {
+        display: none !important;
+    }
+</style>
+<script type="text/javascript">
+    if (self === top) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+        top.location = self.location;
+    }
+</script>
+<div ng-show="!loadingIGDocument">
+    <div class="row" ng-show="!isEditing">
+        <div class="col-md-12">
+            <p>No Implementation Guide Selected.</p>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-md-12" ng-show="igDocumentMsg !== null">
+                <div ng-class="'alert alert-'+igDocumentMsg.type" ng-show="igDocumentMsg.show" id="ehralert">
+                    <md-button type="button" class="close" ng-click="igDocumentMsg.show = false">×</md-button>
+                    <div msg key-expr="igDocumentMsg.text"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <span style="margin: 0px !important">
+                    <span style="font-size: x-large;">{{igdocument.metaData.title}}</span>
+                    <span class="glyphicon glyphicon-info-sign ig-info">
+                    <md-tooltip md-direction="right" style="max-height:none !important;height: 100px" layout="column">
+
+                        <span flex><i class="fa fa-calendar" aria-hidden="true"></i>
+                           <strong> Updated: </strong> {{igdocument.dateUpdated | date:dateFormat}}</span>
+
+                        <span flex> <strong>HL7 Version:</strong> {{igdocument.profile.metaData.hl7Version}}</span>
+                         <span flex ng-if="igdocument.owner" style="font-style: italic;">
+                             <span ng-if="igdocument.owner"> <strong>Author: </strong> <img style="max-width:30px !important;border-radius: 50%" src="{{generateHash(igdocument.owner.email)}}"/> {{igdocument.owner.fullname}}</span>
+                        </span>
+                    </md-tooltip>
+                    </span>
+                </span>
+            </div>
+
+                    <!--<span class="pull-right" ng-click="toggleScreen()"><i ng-if="!fullscreen" class="material-icons">fullscreen</i>-->
+                        <!--<i ng-if="fullscreen" class="material-icons">fullscreen</i><md-tooltip md-direction="right"> Exit Full Screen</md-tooltip>-->
+                    <!--</span>-->
+
+            <div class="col-md-12 ig-menu-bar">
+                <div class="col-md-1" style="width:20px">
+                    <md-button ng-click="showToc = !showToc" class="md-icon-button md-primary" aria-label="Settings">
+                        <i class="fa fa-bars fa-2x white-color" style="margin-top:-3px !important;" aria-hidden="true"></i>
+                    </md-button>
+                 </div>
+                <div class="col-md-3" style="margin-left:10px">
+                <md-switch no-dirty-check ng-model="filtering" aria-label="Filter" ng-change="displayTree(!filtering)" style="margin-bottom: 0px;margin-top: 3px !important;" class="md-primary">
+                 <span class="white-color" ng-if="!filtering">FILTER OFF</span><span ng-if="filtering">FILTER ON</span>
+                </md-switch>
+                </div>
+                <div  class="pull-right">
+                    <md-menu-bar>
+
+                        <md-menu>
+                            <button ng-click="$mdMenu.hide(null, { closeAll: true });$mdMenu.open()" type="button" class="white-color">
+                                <i class="fa fa-paper-plane fa-fw"></i> Connect To GVT
+                            </button>
+                            <md-menu-content>
+                                <md-menu-item>
+                                    <md-button  ng-click="selectMessagesForExport(igdocument, true)">
+                                        Conformance Profile
+                                    </md-button>
+                                </md-menu-item>
+                                <md-menu-item ng-show="igdocument.profile.compositeProfiles.children.length > 0">
+                                    <md-button ng-click="selectCompositeProfilesForExport(igdocument,true)" >
+                                        Composite Profile
+                                    </md-button>
+                                </md-menu-item>
+                            </md-menu-content>
+                        </md-menu>
+
+                        <md-menu>
+
+                            <!--<md-button ng-click="$mdMenu.open()" type="button" md-colors="{background:'indigo'}">-->
+                            <button ng-click="$mdMenu.open()" type="button" class="white-color">
+
+                                <i class="fa fa-download fa-fw"></i> Export
+                            </button>
+
+
+                            <md-menu-content>
+                                <md-menu-item>
+                                    <md-menu>
+                                        <md-button ng-click="$mdMenu.hide(null, { closeAll: true });$mdMenu.open()">As XML</md-button>
+                                        <md-menu-content>
+                                            <md-menu-item>
+                                                <md-button  ng-click="selectMessagesForExport(igdocument, false)">
+                                                    Conformance Profile
+                                                </md-button>
+                                            </md-menu-item>
+                                            <md-menu-item ng-show="igdocument.profile.compositeProfiles.children.length > 0">
+                                                <md-button ng-click="selectCompositeProfilesForExport(igdocument,false)" >
+                                                    Composite Profile
+                                                </md-button>
+                                            </md-menu-item>
+                                        </md-menu-content>
+                                    </md-menu>
+                                </md-menu-item>
+                                <md-menu-item>
+                                    <md-menu>
+                                        <md-button ng-click="$mdMenu.hide(null, { closeAll: true });$mdMenu.open()">As HTML</md-button>
+                                        <md-menu-content>
+                                            <md-menu-item>
+                                                <md-button  ng-click="exportAsWithLayout('html','IGDocument')">IG
+                                                    Style
+                                                </md-button>
+                                            </md-menu-item>
+                                            <md-menu-item>
+                                                <md-button ng-click="exportAsWithLayout('html','Profile')" >
+                                                    Profile Style
+                                                </md-button>
+                                            </md-menu-item>
+                                            <md-menu-item>
+                                                <md-button ng-click="exportAsWithLayout('html','Table')">
+                                                    Table Style
+                                                </md-button>
+                                            </md-menu-item>
+
+                                        </md-menu-content>
+                                    </md-menu>
+                                </md-menu-item>
+                                <md-menu-item>
+                                    <md-menu>
+                                        <md-button ng-click="$mdMenu.hide(null, { closeAll: true });$mdMenu.open()">As Word</md-button>
+                                        <md-menu-content>
+                                            <md-menu-item>
+
+                                                <md-button ng-click="exportAsWithLayout('docx','IgDocument')">IG
+                                                    Style
+                                                </md-button>
+                                            </md-menu-item>
+                                            <md-menu-item>
+                                                <md-button ng-click="exportAsWithLayout('docx','Profile')">
+                                                    Profile Style
+                                                </md-button>
+                                            </md-menu-item>
+                                            <md-menu-item>
+                                                <md-button ng-click="exportAsWithLayout('docx','Table')">
+                                                    Table Style
+                                                </md-button>
+                                            </md-menu-item>
+
+                                        </md-menu-content>
+                                    </md-menu>
+                                </md-menu-item>
+                            </md-menu-content>
+                        </md-menu>
+
+                        <md-menu>
+                            <button ng-click="$mdMenu.open()" class="white-color">
+                                Usage Filter
+                            </button>
+                            <md-menu-content>
+
+                                <md-menu-item>
+                                    <md-button  ng-click="$root.usageF=false">All Usages</md-button>
+                                </md-menu-item>
+
+                                <md-menu-item>
+
+                                    <md-button  ng-click="usageFilter()">ONLY R,RE,RC</md-button>
+
+                                </md-menu-item>
+
+                            </md-menu-content>
+                        </md-menu>
+                        <md-menu  ng-if="igdocument.accountId == getAccountID()">
+                            <!--<md-menu class="pull-right" ng-if="igdocument.accountId == getAccountID()">-->
+
+                            <button ng-click="shareModal(igdocument)" class="white-color" >
+                                <i class="fa fa-share-alt" aria-hidden="true"></i> Share
+                            </button>
+                            <md-menu-content>
+                            </md-menu-content>
+
+                        </md-menu>
+                        <md-menu>
+                            <!--<md-button aria-label="Verify IG" type="button"-->
+                            <!--ng-click="validateIg()" md-colors="{background:'green'}">-->
+                            <button aria-label="Verify IG" type="button" class="white-color"
+                                    ng-click="validateIg()">
+                                <i class="fa fa-check" aria-hidden="true"></i> Verify
+                            </button>
+
+                            <md-menu-content>
+                            </md-menu-content>
+
+                        </md-menu>
+                        <md-menu>
+                            <!--<md-button ng-click="close()" md-colors="{background:'orange'}">-->
+                                <button ng-click="close()" class="white-color">
+
+                                <i class="fa fa-close fa-fw"></i> Close
+                            </button>
+                            <md-menu-content>
+                            </md-menu-content>
+                        </md-menu>
+
+
+
+
+
+
+                    </md-menu-bar>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row" ng-show="showErrorCount(igdocument.id)  && showIgErrorNotification"
+             style="margin-right: 15px;margin-left: 5px;margin-top:10px">
+            <div class="alert has-error" ng-show="errorCount(igdocument.id)>0">
+                <!--<button type="button" class="close" aria-label="Close" ><span aria-hidden="true">&times;</span></button> {{errorCount(igdocument.id)}} Errors-->
+                <button type="button" ng-click="setIgErrorNotification();" class="close" aria-label="Close">
+                    <span>&times;</span></button>
+                <i class="fa fa-times fa-fw"></i> Invalid IG Document: {{errorCount(igdocument.id)}} Errors
+
+            </div>
+            <div class="alert alert-success" ng-show="errorCount(igdocument.id)===0">
+                <!--<button type="button" class="close" aria-label="Close" ><span aria-hidden="true">&times;</span></button> {{errorCount(igdocument.id)}} Errors-->
+                <button type="button" ng-click="setIgErrorNotification();" class="close" aria-label="Close">
+                    <span>&times;</span></button>
+                <i class="fa fa-check fa-fw"></i> Valid IG Document
+
+            </div>
+        </div>
+        <div>
+            <form name="editForm" id="editForm" class="form-horizontal" novalidate unsaved-warning-form ng-show="isEditing" ng-controller="EditAreaCtrl" ng-init="init" ng-cloak>
+
+            <div class="row">
+                <div  ng-show="showToc" class="col-md-3">
+                    <div class="tree-fixed">
+                    <div ng-include="tocView"></div>
+                    </div>
+                </div>
+                <div ng-class="{'col-md-12': !showToc, 'col-md-9': showToc}" class="col-md-9" >
+
+                            <div id="edit" ng-show="subview" >
+                                <div ng-include="subview"></div>
+                            </div>
+                </div>
+            </div>
+            </form>
+        </div>
+</div>
+
+<div ng-show="loadingIGDocument" style="text-align:center;padding-top:20px; padding-bottom:20px">
+    <div layout="row" layout-sm="column" layout-align="space-around">
+        <md-progress-circular class="md-hue-2" md-diameter="40px"></md-progress-circular>
+    </div>
+    <!--<i class="fa fa-spinner fa-3" aria-hidden="true"></i>-->
+</div>
+
+
+<script type="text/ng-template" id="sharePopover.html">
+    <div class="triangle"></div>
+    <div style="z-index: 99999" class="cp-tooltip">
+        <div class="col-md-12" class="cp-tooltip">
+            <i class="fa fa-user" aria-hidden="true"></i> {{participant.fullname}}<br>
+            <span ng-if="participant.pendingApproval">Confirmation pending...</span>
+        </div>
+    </div>
+</script>

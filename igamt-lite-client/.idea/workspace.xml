@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6854ac61-fea4-4468-9a7a-ac5f207b6817" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="$PROJECT_DIR$/test/karma.conf.js" />
+    </list>
+    <ignored path="igamt-lite-client.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="igamt-lite-client" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="editSegments.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/edit/editSegments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10530">
+              <caret line="702" column="101" lean-forward="false" selection-start-line="702" selection-start-column="101" selection-end-line="702" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listIG.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/edit/listIG.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="82" lean-forward="false" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editIG.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/edit/editIG.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/table-of-content/tree/tree.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28890">
+              <caret line="1926" column="34" lean-forward="false" selection-start-line="1926" selection-start-column="34" selection-end-line="1926" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="igdocument-add-csv-open-table.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/igdocument/igdocument-add-csv-open-table/igdocument-add-csv-open-table.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1485">
+              <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editValueSets.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/edit/editValueSets.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valueset-list.component.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/valueset/valueset-list/valueset-list.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="749">
+              <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templates.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/templates.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64620">
+              <caret line="4308" column="84" lean-forward="false" selection-start-line="4308" selection-start-column="84" selection-end-line="4308" selection-end-column="84" />
+              <folding>
+                <element signature="n#script#43;n#!!top" expanded="false" />
+                <element signature="n#script#44;n#!!top" expanded="false" />
+                <element signature="n#script#45;n#!!top" expanded="false" />
+                <element signature="n#script#46;n#!!top" expanded="false" />
+                <marker date="1508172821000" expanded="true" signature="349840:350496" ph="..." />
+                <marker date="1508172821000" expanded="true" signature="410067:410300" ph="{...}" />
+                <marker date="1508172821000" expanded="true" signature="410737:410970" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editDatatypes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/edit/editDatatypes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18660">
+              <caret line="1244" column="40" lean-forward="false" selection-start-line="1244" selection-start-column="40" selection-end-line="1244" selection-end-column="40" />
+              <folding>
+                <marker date="1508172821000" expanded="true" signature="89261:98844" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datatype-list.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/datatype/datatype-list/datatype-list.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12420">
+              <caret line="828" column="38" lean-forward="false" selection-start-line="828" selection-start-column="38" selection-end-line="828" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>InputTextCtrl.html</find>
+      <find>ng-disa</find>
+      <find>$mdDialog.show</find>
+      <find>CoConst</find>
+      <find>EditUserData.html</find>
+      <find>EditUserDataCtrl</find>
+      <find>RichTextCtrlMd.html</find>
+      <find>getConstraintAsTruncatedString</find>
+      <find>binding</find>
+      <find>Multiple</find>
+      <find>isSingleValueSetAllowed</find>
+      <find>Constan</find>
+      <find>Find</find>
+      <find>FindUser</find>
+      <find>conformanceStat</find>
+      <find>conformanceStatementSegment</find>
+      <find>conformanceStatementDatatype</find>
+      <find>predicateDatatype</find>
+      <find>segment</find>
+      <find>A</find>
+      <find>Add f</find>
+      <find>Add ffo</find>
+      <find>Add ff</find>
+      <find>Add fr</find>
+      <find>Add from</find>
+      <find>Add from CSV</find>
+      <find>add code</find>
+      <find>1000</find>
+      <find>500</find>
+      <find>save</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>segment_tree_item</replace>
+      <replace>{{binding.code.value}}&lt;i class=&quot;fa fa-arrow-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;[{{binding.code.codeSystem}}]</replace>
+      <replace>datatypesMap[node.datatype.id].components.length &gt;0</replace>
+      <replace>$scope.temporaryDatatypeMap</replace>
+      <replace>!datatypeLinkMap[node.datatypeId].hasChild</replace>
+      <replace>$rootScope.temporaryDatatypeMap</replace>
+      <replace>findBinding</replace>
+      <replace>findBindings</replace>
+      <replace>findComments</replace>
+      <replace>findValueSetBindings</replace>
+      <replace>datatypeRef.id</replace>
+      <replace>!datatypeLinkMap[node.datatypeRef.id]</replace>
+      <replace>temporaryDatatypeMap</replace>
+      <replace>node.datatypeRef.id</replace>
+      <replace>#a7d6a9</replace>
+      <replace>tableLinkMap</replace>
+      <replace>datatypeLinkMap</replace>
+      <replace>$scope.seg</replace>
+      <replace>$scope.coConstraintsTable</replace>
+      <replace>selectedSegment</replace>
+      <replace>-5</replace>
+      <replace>&quot;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/.sass-cache</dir>
+      <dir>$PROJECT_DIR$/src/assets/testdata</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/assets/testdata/filesystem-lazy.json" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/treetable.spec.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/treetabledemo.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/footer.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/footer.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/nodeservice.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/treetable.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/footer.component.spec.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/jooter.component.spec.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/jooter.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/jooter.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/treetable.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/treetable/treetable.component.spec.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/footer/footer.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/footer/footer.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-treetable/treetable.component.spec.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-treetable/segment-treetable.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-treetable/segtt.component.spec.ts" />
+        <option value="$PROJECT_DIR$/src/app/views/edit/editIG.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-treetable/config.ts" />
+        <option value="$PROJECT_DIR$/src/assets/testdata/config.json" />
+        <option value="$PROJECT_DIR$/src/assets/testdata/filesystem.json" />
+        <option value="$PROJECT_DIR$/src/assets/testdata/datatype/ERLID.json" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-treetable/segtt.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-treetable/nodeservice.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-treetable/segtt.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-structure/segmeta.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-structure/segtt.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-metadata/segmeta.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-structure/segtt.component.ts" />
+        <option value="$PROJECT_DIR$/src/main.ts" />
+        <option value="$PROJECT_DIR$/src/app/views/edit/editSegments.html" />
+        <option value="$PROJECT_DIR$/src/assets/testdata/segment/segment001.json" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/config/webpack.dev.js" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/vendor.ts" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-metadata/segmeta.component.html" />
+        <option value="$PROJECT_DIR$/src/app/scripts/igdocument/igdocument-list/igdocument-list.component.js" />
+        <option value="$PROJECT_DIR$/src/app/scripts/segment/segment-structure/nodeservice.ts" />
+        <option value="$PROJECT_DIR$/.tmp/concat/scripts/scripts.js" />
+        <option value="$PROJECT_DIR$/app/scripts/segment/segment-list/segment-list.component.js" />
+        <option value="$PROJECT_DIR$/app/scripts/edit-user-data/edit-user-data.component.js" />
+        <option value="$PROJECT_DIR$/app/scripts/main/main.component.js" />
+        <option value="$PROJECT_DIR$/app/scripts/datatype/datatype-list/datatype-list.component.js" />
+        <option value="$PROJECT_DIR$/app/views/templates.html" />
+        <option value="$PROJECT_DIR$/app/scripts/igdocument/igdocument-add-csv-open-table/igdocument-add-csv-open-table.component.js" />
+        <option value="$PROJECT_DIR$/app/views/edit/editValueSets.html" />
+        <option value="$PROJECT_DIR$/app/scripts/valueset/valueset-list/valueset-list.component.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER">
+    <gruntfile path="$PROJECT_DIR$/Gruntfile.js">
+      <alias-task name="test" info="Alias for &quot;clean:server&quot;, &quot;includeSource:dev&quot;, &quot;concurrent:test&quot;, &quot;autoprefixer&quot;, &quot;connect:test&quot;, &quot;karma&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean:server" />
+        <dependency value="includeSource:dev" />
+        <dependency value="concurrent:test" />
+        <dependency value="autoprefixer" />
+        <dependency value="connect:test" />
+        <dependency value="karma" />
+      </alias-task>
+      <alias-task name="half-build" info="Alias for &quot;clean:dist&quot;, &quot;includeSource:prod&quot;, &quot;wiredep:prod&quot;, &quot;concurrent:dist&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean:dist" />
+        <dependency value="includeSource:prod" />
+        <dependency value="wiredep:prod" />
+        <dependency value="concurrent:dist" />
+      </alias-task>
+      <alias-task name="build" info="Alias for &quot;clean:dist&quot;, &quot;includeSource:prod&quot;, &quot;wiredep:prod&quot;, &quot;useminPrepare&quot;, &quot;concurrent:dist&quot;, &quot;autoprefixer&quot;, &quot;concat&quot;, &quot;ngAnnotate&quot;, &quot;copy:dist&quot;, &quot;cdnify&quot;, &quot;cssmin&quot;, &quot;filerev&quot;, &quot;usemin&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean:dist" />
+        <dependency value="includeSource:prod" />
+        <dependency value="wiredep:prod" />
+        <dependency value="useminPrepare" />
+        <dependency value="concurrent:dist" />
+        <dependency value="autoprefixer" />
+        <dependency value="concat" />
+        <dependency value="ngAnnotate" />
+        <dependency value="copy:dist" />
+        <dependency value="cdnify" />
+        <dependency value="cssmin" />
+        <dependency value="filerev" />
+        <dependency value="usemin" />
+        <dependency value="htmlmin" />
+      </alias-task>
+      <alias-task name="buildquick" info="Alias for &quot;clean:dist&quot;, &quot;includeSource:prod&quot;, &quot;wiredep:prod&quot;, &quot;useminPrepare&quot;, &quot;concurrent:dist&quot;, &quot;autoprefixer&quot;, &quot;concat&quot;, &quot;ngAnnotate&quot;, &quot;copy:dist&quot;, &quot;cdnify&quot;, &quot;cssmin&quot;, &quot;filerev&quot;, &quot;usemin&quot;, &quot;htmlmin&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="clean:dist" />
+        <dependency value="includeSource:prod" />
+        <dependency value="wiredep:prod" />
+        <dependency value="useminPrepare" />
+        <dependency value="concurrent:dist" />
+        <dependency value="autoprefixer" />
+        <dependency value="concat" />
+        <dependency value="ngAnnotate" />
+        <dependency value="copy:dist" />
+        <dependency value="cdnify" />
+        <dependency value="cssmin" />
+        <dependency value="filerev" />
+        <dependency value="usemin" />
+        <dependency value="htmlmin" />
+      </alias-task>
+      <alias-task name="default" info="Alias for &quot;newer:jshint&quot;, &quot;test&quot;, &quot;build&quot; tasks." file-path="$PROJECT_DIR$/Gruntfile.js">
+        <dependency value="newer:jshint" />
+        <dependency value="test" />
+        <dependency value="build" />
+      </alias-task>
+      <core-task name="autoprefixer" info="Prefix CSS files." file-path="$PROJECT_DIR$/node_modules/grunt-autoprefixer/tasks/autoprefixer.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="concurrent" info="Run grunt tasks concurrently" file-path="$PROJECT_DIR$/node_modules/grunt-concurrent/tasks/concurrent.js" multi="true">
+        <target value="server" />
+        <target value="test" />
+        <target value="dist" />
+      </core-task>
+      <core-task name="clean" info="Clean files and folders." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-clean/tasks/clean.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="compass" info="Compile Sass to CSS using Compass" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-compass/tasks/compass.js" multi="true">
+        <target value="dist" />
+        <target value="server" />
+      </core-task>
+      <core-task name="concat" info="Concatenate files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-concat/tasks/concat.js" multi="true" />
+      <core-task name="connect" info="Start a connect web server." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-connect/tasks/connect.js" multi="true">
+        <target value="livereload" />
+        <target value="test" />
+        <target value="dist" />
+      </core-task>
+      <core-task name="copy" info="Copy files." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-copy/tasks/copy.js" multi="true">
+        <target value="dev" />
+        <target value="dist" />
+        <target value="styles" />
+      </core-task>
+      <core-task name="cssmin" info="Minify CSS" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/tasks/cssmin.js" multi="true" />
+      <core-task name="htmlmin" info="Minify HTML" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-htmlmin/tasks/htmlmin.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="imagemin" info="Minify PNG, JPEG, GIF and SVG images" file-path="$PROJECT_DIR$/node_modules/grunt-contrib-imagemin/tasks/imagemin.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="jshint" info="Validate files with JSHint." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-jshint/tasks/jshint.js" multi="true">
+        <target value="all" />
+        <target value="test" />
+      </core-task>
+      <core-task name="uglify" info="Minify files with UglifyJS." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-uglify/tasks/uglify.js" multi="true" />
+      <core-task name="watch" info="Run predefined tasks whenever watched files change." file-path="$PROJECT_DIR$/node_modules/grunt-contrib-watch/tasks/watch.js" multi="false">
+        <target value="includeSource" />
+        <target value="bower" />
+        <target value="js" />
+        <target value="jsTest" />
+        <target value="compass" />
+        <target value="gruntfile" />
+        <target value="livereload" />
+      </core-task>
+      <core-task name="filerev" info="File revisioning based on content hashing" file-path="$PROJECT_DIR$/node_modules/grunt-filerev/tasks/filerev.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="cdnify" info="Replace scripts with refs to the Google CDN" file-path="$PROJECT_DIR$/node_modules/grunt-google-cdn/tasks/cdnify.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="includeSource" info="Include lists of files into your source files automatically." file-path="$PROJECT_DIR$/node_modules/grunt-include-source/tasks/includeSource.js" multi="true">
+        <target value="dev" />
+        <target value="prod" />
+      </core-task>
+      <core-task name="karma" info="run karma." file-path="$PROJECT_DIR$/node_modules/grunt-karma/tasks/grunt-karma.js" multi="true">
+        <target value="unit" />
+      </core-task>
+      <core-task name="newer" info="Run a task with only those source files that have been modified since the last successful run." file-path="$PROJECT_DIR$/node_modules/grunt-newer/tasks/newer.js" multi="false" />
+      <core-task name="any-newer" info="DEPRECATED TASK.  Use the &quot;newer&quot; task instead" file-path="$PROJECT_DIR$/node_modules/grunt-newer/tasks/newer.js" multi="false" />
+      <core-task name="newer-postrun" info="Internal task." file-path="$PROJECT_DIR$/node_modules/grunt-newer/tasks/newer.js" multi="false" />
+      <core-task name="newer-clean" info="Remove cached timestamps." file-path="$PROJECT_DIR$/node_modules/grunt-newer/tasks/newer.js" multi="false" />
+      <core-task name="ngAnnotate" info="Add, remove and rebuild AngularJS dependency injection annotations" file-path="$PROJECT_DIR$/node_modules/grunt-ng-annotate/tasks/ng-annotate.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="svgmin" info="Minify SVG" file-path="$PROJECT_DIR$/node_modules/grunt-svgmin/tasks/svgmin.js" multi="true">
+        <target value="dist" />
+      </core-task>
+      <core-task name="usemin" info="Replaces references to non-minified scripts / stylesheets" file-path="$PROJECT_DIR$/node_modules/grunt-usemin/tasks/usemin.js" multi="true">
+        <target value="html" />
+        <target value="css" />
+      </core-task>
+      <core-task name="useminPrepare" info="Using HTML markup as the primary source of information" file-path="$PROJECT_DIR$/node_modules/grunt-usemin/tasks/usemin.js" multi="true" />
+      <core-task name="wiredep" info="Inject Bower components into your source code." file-path="$PROJECT_DIR$/node_modules/grunt-wiredep/tasks/wiredep.js" multi="true">
+        <target value="dev" />
+        <target value="prod" />
+        <target value="sass" />
+      </core-task>
+      <core-task name="serve" info="Compile then start a connect web server" file-path="$PROJECT_DIR$/Gruntfile.js" multi="false" />
+    </gruntfile>
+  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="segment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igamt-lite-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="segment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="segment-list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jungyubw/Documents/Works/Projects/igamt/igamt-lite-client/app/scripts/controllers/LibraryDt.js" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mocks/api/display" />
+      <recent name="$PROJECT_DIR$/mocks/api/display/datatype" />
+      <recent name="$PROJECT_DIR$/mocks/api/display/segment" />
+      <recent name="$PROJECT_DIR$/src/app/scripts/segment" />
+      <recent name="$PROJECT_DIR$/src/app/scripts/segment/segment-structure" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/testdata/segment" />
+      <recent name="$PROJECT_DIR$/src/assets/testdata" />
+      <recent name="$PROJECT_DIR$/src/app/scripts/segment" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/app/scripts/treetable" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Grunt.js.Build">
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <arguments value="start:webpack" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="build" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Serve" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <tasks>
+        <task value="serve" />
+      </tasks>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="build-quick" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
+      <arguments value="buildquick" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="npm run" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:webpack" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Grunt.js.Build" />
+      <item index="1" class="java.lang.String" itemvalue="Grunt.js.Serve" />
+      <item index="2" class="java.lang.String" itemvalue="Grunt.js.build-quick" />
+      <item index="3" class="java.lang.String" itemvalue="npm.npm run" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6854ac61-fea4-4468-9a7a-ac5f207b6817" name="Default" comment="" />
+      <created>1464902022800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1464902022800</updated>
+      <workItem from="1464902024162" duration="467000" />
+      <workItem from="1464904644915" duration="402000" />
+      <workItem from="1465221141239" duration="9254000" />
+      <workItem from="1465305880929" duration="8513000" />
+      <workItem from="1466017323221" duration="8781000" />
+      <workItem from="1466605276237" duration="436000" />
+      <workItem from="1466779969683" duration="11281000" />
+      <workItem from="1467316543467" duration="1233000" />
+      <workItem from="1468331306761" duration="281000" />
+      <workItem from="1468347624109" duration="1028000" />
+      <workItem from="1469025250077" duration="17415000" />
+      <workItem from="1469215690244" duration="534000" />
+      <workItem from="1469459880215" duration="12767000" />
+      <workItem from="1470319513894" duration="155000" />
+      <workItem from="1470334039321" duration="1497000" />
+      <workItem from="1470689022191" duration="13000" />
+      <workItem from="1470689135766" duration="153000" />
+      <workItem from="1470700634757" duration="129000" />
+      <workItem from="1470721669066" duration="227000" />
+      <workItem from="1470728042432" duration="942000" />
+      <workItem from="1470730073761" duration="17000" />
+      <workItem from="1470734284104" duration="35000" />
+      <workItem from="1471964102044" duration="294000" />
+      <workItem from="1471965398737" duration="29569000" />
+      <workItem from="1472225841047" duration="15858000" />
+      <workItem from="1472752652904" duration="366000" />
+      <workItem from="1473281568628" duration="5000" />
+      <workItem from="1473357743652" duration="3927000" />
+      <workItem from="1473796519437" duration="998000" />
+      <workItem from="1473797753749" duration="11635000" />
+      <workItem from="1473947764153" duration="209000" />
+      <workItem from="1474046372240" duration="1175000" />
+      <workItem from="1474400642170" duration="1408000" />
+      <workItem from="1474554628749" duration="277000" />
+      <workItem from="1474639148246" duration="54342000" />
+      <workItem from="1475605122038" duration="715000" />
+      <workItem from="1475609924984" duration="9301000" />
+      <workItem from="1476286389615" duration="3488000" />
+      <workItem from="1476471956234" duration="877000" />
+      <workItem from="1476971657651" duration="8897000" />
+      <workItem from="1477419035187" duration="485000" />
+      <workItem from="1478034268011" duration="42000" />
+      <workItem from="1478034647054" duration="10000" />
+      <workItem from="1478096849260" duration="220000" />
+      <workItem from="1478097085491" duration="4331000" />
+      <workItem from="1478618462769" duration="347000" />
+      <workItem from="1479234300936" duration="32105000" />
+      <workItem from="1479832141105" duration="8742000" />
+      <workItem from="1481142089194" duration="31000" />
+      <workItem from="1481557245984" duration="838000" />
+      <workItem from="1481576395207" duration="633000" />
+      <workItem from="1481662458715" duration="29096000" />
+      <workItem from="1483553237419" duration="401000" />
+      <workItem from="1484071708141" duration="4506000" />
+      <workItem from="1484146323289" duration="147000" />
+      <workItem from="1484339217971" duration="388000" />
+      <workItem from="1485793685289" duration="156000" />
+      <workItem from="1485885607650" duration="17213000" />
+      <workItem from="1486757747319" duration="127000" />
+      <workItem from="1486757886527" duration="32000" />
+      <workItem from="1486757929192" duration="621000" />
+      <workItem from="1486758676068" duration="564000" />
+      <workItem from="1487100665256" duration="1016000" />
+      <workItem from="1487282505396" duration="79000" />
+      <workItem from="1487970964467" duration="97000" />
+      <workItem from="1488298167140" duration="68000" />
+      <workItem from="1488298258997" duration="10000" />
+      <workItem from="1488298332414" duration="16000" />
+      <workItem from="1488298448221" duration="645000" />
+      <workItem from="1488468319697" duration="264000" />
+      <workItem from="1488478957845" duration="162000" />
+      <workItem from="1489085064514" duration="18782000" />
+      <workItem from="1489528262256" duration="18337000" />
+      <workItem from="1490122976637" duration="10444000" />
+      <workItem from="1490189656354" duration="16699000" />
+      <workItem from="1490280166092" duration="589000" />
+      <workItem from="1490369658933" duration="12009000" />
+      <workItem from="1490641468174" duration="546000" />
+      <workItem from="1490710623608" duration="123000" />
+      <workItem from="1490710774008" duration="173000" />
+      <workItem from="1490711084871" duration="180000" />
+      <workItem from="1490711416747" duration="19000" />
+      <workItem from="1490711466406" duration="11000" />
+      <workItem from="1490711493615" duration="315000" />
+      <workItem from="1490739757618" duration="4930000" />
+      <workItem from="1490751088608" duration="3777000" />
+      <workItem from="1490755324594" duration="94000" />
+      <workItem from="1490759592639" duration="9044000" />
+      <workItem from="1490794979198" duration="13189000" />
+      <workItem from="1490918899853" duration="17595000" />
+      <workItem from="1490948500263" duration="4392000" />
+      <workItem from="1490968269550" duration="9319000" />
+      <workItem from="1491233937693" duration="1695000" />
+      <workItem from="1491399482248" duration="15670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="480225000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1205074" sideWeight="0.7305195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14690824" sideWeight="0.10521886" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11231884" sideWeight="0.18694049" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19021739" sideWeight="0.8130595" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296131" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16587678" sideWeight="0.26948053" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35416666" sideWeight="0.48025277" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39945653" sideWeight="0.4934176" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27083334" sideWeight="0.9200473" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14039855" sideWeight="0.29383886" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.49394417" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/scripts/segment/segment-structure/segtt.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/scripts/segment/segment-metadata/segmeta.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/vendor.js" />
+    <entry file="file://$PROJECT_DIR$/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/bs-config.json" />
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-427">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc" />
+    <entry file="file://$PROJECT_DIR$/src/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/quill/dist/quill.core.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/quill/dist/quill.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/awesome-typescript-loader/src/__test__/utils.ts" />
+    <entry file="file://$PROJECT_DIR$/src/vendor.ts" />
+    <entry file="file://$PROJECT_DIR$/src/polyfills.ts" />
+    <entry file="file://$PROJECT_DIR$/src/main.ts" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="93" column="5" lean-forward="false" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="10189" column="61" lean-forward="false" selection-start-line="10189" selection-start-column="56" selection-end-line="10189" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.dev.js" />
+    <entry file="file://$PROJECT_DIR$/config/webpack.common.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/views/edit/editSegments.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/scripts/segment/segment-metadata/segmeta.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/scripts/igdocument/igdocument-list/igdocument-list.component.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/scripts/segment/segment-structure/segtt.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/assets/testdata/segment/segment001.json" />
+    <entry file="file://$PROJECT_DIR$/mocks/api/segment-library/588f2d3e84ae56b0b8a3f34f/segments/GET.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37102">
+          <caret line="4578" column="10" lean-forward="false" selection-start-line="4578" selection-start-column="10" selection-end-line="4583" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mocks/api/igdocuments/GET.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/testdata/datatype/ERLID.json" />
+    <entry file="file://$PROJECT_DIR$/mocks/api/display/segment/segment001.json" />
+    <entry file="file://$PROJECT_DIR$/mocks/api/display/datatype/ERLID.json" />
+    <entry file="file://$PROJECT_DIR$/mocks/api/display/config.json" />
+    <entry file="file://$PROJECT_DIR$/src/app/scripts/segment/segment-structure/nodeservice.ts" />
+    <entry file="file://$PROJECT_DIR$/mocks/api/datatype-library/588f2d3e84ae56b0b8a3f34e/datatypes/GET.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="213" column="26" lean-forward="false" selection-start-line="213" selection-start-column="26" selection-end-line="213" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/profile-component/profile-component-coconstraint/profile-component-coconstraint-add/profile-component-coconstraint-add.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="1044" column="2" lean-forward="false" selection-start-line="1044" selection-start-column="2" selection-end-line="1044" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.tmp/concat/scripts/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574110">
+          <caret line="38283" column="24" lean-forward="false" selection-start-line="38283" selection-start-column="24" selection-end-line="38283" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/segment/segment-list/segment-list.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21225">
+          <caret line="1415" column="11" lean-forward="false" selection-start-line="1415" selection-start-column="11" selection-end-line="1415" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/edit-user-data/edit-user-data.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main/main.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61365">
+          <caret line="4091" column="5" lean-forward="false" selection-start-line="4091" selection-start-column="5" selection-end-line="4091" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/datatype/datatype-table-mapping/datatype-table-mapping.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/edit/editDatatypes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18660">
+          <caret line="1244" column="40" lean-forward="false" selection-start-line="1244" selection-start-column="40" selection-end-line="1244" selection-end-column="40" />
+          <folding>
+            <marker date="1508172821000" expanded="true" signature="89261:98844" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/datatype/datatype-list/datatype-list.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12420">
+          <caret line="828" column="38" lean-forward="false" selection-start-line="828" selection-start-column="38" selection-end-line="828" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/templates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64620">
+          <caret line="4308" column="84" lean-forward="false" selection-start-line="4308" selection-start-column="84" selection-end-line="4308" selection-end-column="84" />
+          <folding>
+            <element signature="n#script#43;n#!!top" expanded="false" />
+            <element signature="n#script#44;n#!!top" expanded="false" />
+            <element signature="n#script#45;n#!!top" expanded="false" />
+            <element signature="n#script#46;n#!!top" expanded="false" />
+            <marker date="1508172821000" expanded="true" signature="349840:350496" ph="..." />
+            <marker date="1508172821000" expanded="true" signature="410067:410300" ph="{...}" />
+            <marker date="1508172821000" expanded="true" signature="410737:410970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/edit/editSegments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10530">
+          <caret line="702" column="101" lean-forward="false" selection-start-line="702" selection-start-column="101" selection-end-line="702" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/edit/listIG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="82" lean-forward="false" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/edit/editIG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/table-of-content/tree/tree.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28890">
+          <caret line="1926" column="34" lean-forward="false" selection-start-line="1926" selection-start-column="34" selection-end-line="1926" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/igdocument/igdocument-add-csv-open-table/igdocument-add-csv-open-table.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/edit/editValueSets.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/valueset/valueset-list/valueset-list.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="289" column="0" lean-forward="false" selection-start-line="289" selection-start-column="0" selection-end-line="289" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

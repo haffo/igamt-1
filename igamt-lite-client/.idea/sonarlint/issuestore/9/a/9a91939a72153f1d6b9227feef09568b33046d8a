@@ -1,0 +1,184 @@
+
+cjavascript:S2583"DChange this condition so that it does not always evaluate to "true".(ŸÓ©¶şÿÿÿÿ
+cjavascript:S2583"DChange this condition so that it does not always evaluate to "true".(›Ù¾Şùÿÿÿÿ
+sjavascript:S2814"TRename "childLocationName" as this name is already used in declaration at line 1190.(Ñ©Å·ÿÿÿÿÿ
+ujavascript:S2814"VRename "childInstanceNumber" as this name is already used in declaration at line 1447.(‘Àäúÿÿÿÿ
+zjavascript:S2814"`Rename "childisInstanceNumberEditable" as this name is already used in declaration at line 1193.(ºŒÜ‡
+gjavascript:S2814"HRename "child" as this name is already used in declaration at line 1198.(ÖŸñ«ûÿÿÿÿ
+cjavascript:S2814"DRename "i" as this name is already used in declaration at line 1185.(Ó°òİùÿÿÿÿ
+ajavascript:S2814"GRename "len1" as this name is already used in declaration at line 1125.(èĞ…‘
+jjavascript:S2814"PRename "childNodeName" as this name is already used in declaration at line 1191.(¬ªçÇ
+`javascript:S2814"FRename "len1" as this name is already used in declaration at line 515.(õªÔ
+gjavascript:S2814"HRename "child" as this name is already used in declaration at line 1453.(ÖŸñ«ûÿÿÿÿ
+ujavascript:S2814"VRename "childPositionNumber" as this name is already used in declaration at line 1444.(•ç«Éşÿÿÿÿ
+ujavascript:S2814"VRename "childInstanceNumber" as this name is already used in declaration at line 1192.(‘Àäúÿÿÿÿ
+cjavascript:S2814"DRename "i" as this name is already used in declaration at line 1440.(Ó°òİùÿÿÿÿ
+sjavascript:S2814"TRename "childLocationName" as this name is already used in declaration at line 1445.(Ñ©Å·ÿÿÿÿÿ
+ujavascript:S2814"VRename "childPositionNumber" as this name is already used in declaration at line 1189.(•ç«Éşÿÿÿÿ
+jjavascript:S2814"PRename "childNodeName" as this name is already used in declaration at line 1446.(¬ªçÇ
+^javascript:S2814"DRename "i" as this name is already used in declaration at line 1125.(èĞ…‘
+zjavascript:S2814"`Rename "childisInstanceNumberEditable" as this name is already used in declaration at line 1448.(ºŒÜ‡
+]javascript:S2814"CRename "i" as this name is already used in declaration at line 515.(õªÔ
+kjavascript:FunctionComplexity"DFunction has a complexity of 16 which is greater than 10 authorized.(Òş¹Ø
+ujavascript:NestedIfDepth"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(á˜‘”ÿÿÿÿÿ
+ujavascript:NestedIfDepth"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¥Ö–´ÿÿÿÿÿ
+ujavascript:NestedIfDepth"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ïÄ…üÿÿÿÿ
+ujavascript:NestedIfDepth"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(êÛ¯ƒûÿÿÿÿ
+ujavascript:NestedIfDepth"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ïÄ…üÿÿÿÿ
+ujavascript:NestedIfDepth"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(êÛ¯ƒûÿÿÿÿ
+ujavascript:NestedIfDepth"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(¦Ş †øÿÿÿÿ
+r(javascript:VariableDeclarationAfterUsage";Move the declaration of "updateSelected" before this usage.(ÏÏ£Şıÿÿÿÿ
+Qjavascript:S1135"2Complete the task associated to this TODO comment.(’¸Ù¹ÿÿÿÿÿ
+Qjavascript:S1135"2Complete the task associated to this TODO comment.(àı÷ÿúÿÿÿÿ
+Ljavascript:S1135"2Complete the task associated to this TODO comment.(»æ¡‘
+Qjavascript:S1135"2Complete the task associated to this TODO comment.(’¸Ù¹ÿÿÿÿÿ
+Qjavascript:S1135"2Complete the task associated to this TODO comment.(àı÷ÿúÿÿÿÿ
+Ljavascript:S1135"2Complete the task associated to this TODO comment.(»æ¡‘
+i$javascript:DuplicateFunctionArgument"6Rename the duplicated function parameter "$rootScope".(ÿ¬¬Ìúÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(íšù¬
+Fjavascript:CommentedCode"Remove this commented out code.(ä×µÓüÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(À¥şÑùÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(×µ±Ë
+Ajavascript:CommentedCode"Remove this commented out code.(Íß¨
+Ajavascript:CommentedCode"Remove this commented out code.(×µ±Ë
+Ajavascript:CommentedCode"Remove this commented out code.(ä©şİ
+Fjavascript:CommentedCode"Remove this commented out code.(âø¹şÿÿÿÿ
+@javascript:CommentedCode"Remove this commented out code.(ŒŸãH
+Fjavascript:CommentedCode"Remove this commented out code.(¦Ë¼üıÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(ÿÛÜ•
+Fjavascript:CommentedCode"Remove this commented out code.(ßàî°úÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(×µ±Ë
+Ajavascript:CommentedCode"Remove this commented out code.(Ê¿š“
+Fjavascript:CommentedCode"Remove this commented out code.(¨œ€ùøÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(Ä×Æ¶
+Fjavascript:CommentedCode"Remove this commented out code.(Ù‹ş…úÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(‚±íüÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(øÎ£Á
+Ajavascript:CommentedCode"Remove this commented out code.(×µ±Ë
+Ajavascript:CommentedCode"Remove this commented out code.(º¾…ş
+Ajavascript:CommentedCode"Remove this commented out code.(ÈÑ®Ø
+Ajavascript:CommentedCode"Remove this commented out code.(–ŞÁË
+Ajavascript:CommentedCode"Remove this commented out code.(×µ±Ë
+Ajavascript:CommentedCode"Remove this commented out code.(×µ±Ë
+Fjavascript:CommentedCode"Remove this commented out code.(©úü€úÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(éÒ½ûÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(Ê¿š“
+@javascript:CommentedCode"Remove this commented out code.(Ô™²D
+Ajavascript:CommentedCode"Remove this commented out code.(‘Éµä
+Ajavascript:CommentedCode"Remove this commented out code.(ºü¸é
+Ajavascript:CommentedCode"Remove this commented out code.(×µ±Ë
+Ajavascript:CommentedCode"Remove this commented out code.(×µ±Ë
+Fjavascript:CommentedCode"Remove this commented out code.(Ñ•ô…úÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(‹©¸±
+Ajavascript:CommentedCode"Remove this commented out code.(õ¡ÎØ
+Fjavascript:CommentedCode"Remove this commented out code.(õÜØƒøÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(“‘§û
+Fjavascript:CommentedCode"Remove this commented out code.(û¢–ûÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(Ä‚õ›
+Ajavascript:CommentedCode"Remove this commented out code.(­×
+Fjavascript:CommentedCode"Remove this commented out code.(è»İ‘üÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(á‹Í¬üÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(ºËÁ¸ùÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(‹ã…
+Fjavascript:CommentedCode"Remove this commented out code.(à‘îüÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(Ä†—§
+@javascript:CommentedCode"Remove this commented out code.(ıÏù9
+Fjavascript:CommentedCode"Remove this commented out code.(¨Ÿèşùÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(¬œ˜ú
+Ajavascript:CommentedCode"Remove this commented out code.(ù¥›à
+Fjavascript:CommentedCode"Remove this commented out code.(Ñ•ô…úÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(¬œ˜ú
+Ajavascript:CommentedCode"Remove this commented out code.(ù¥›à
+Fjavascript:CommentedCode"Remove this commented out code.(Ñ•ô…úÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(¤³Ÿ„
+Fjavascript:CommentedCode"Remove this commented out code.(ƒÈ„üÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(ºËÁ¸ùÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(”àºúÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(Çùşˆıÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(œœıŠıÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(ÍŸ’³
+@javascript:CommentedCode"Remove this commented out code.(®¡“
+@javascript:CommentedCode"Remove this commented out code.(Ú‰÷
+Fjavascript:CommentedCode"Remove this commented out code.(ÔÔíÎûÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(åâ„ä
+Ajavascript:CommentedCode"Remove this commented out code.(çšÈ¡
+Fjavascript:CommentedCode"Remove this commented out code.(„¹™úÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(åâ„ä
+Fjavascript:CommentedCode"Remove this commented out code.(’ª†‚şÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(À“ûûÿÿÿÿ
+@javascript:CommentedCode"Remove this commented out code.(İùË%
+Ajavascript:CommentedCode"Remove this commented out code.(åâ„ä
+Fjavascript:CommentedCode"Remove this commented out code.(ôÌÑĞúÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(ƒÈşÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(¶¬ÌØşÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.(ô–­€ıÿÿÿÿ
+Ajavascript:CommentedCode"Remove this commented out code.(ğ©º’
+Ajavascript:CommentedCode"Remove this commented out code.(¥ÏŠ…
+Ajavascript:CommentedCode"Remove this commented out code.(¿Çşœ
+Ajavascript:CommentedCode"Remove this commented out code.(‡¢ğ‡
+Fjavascript:CommentedCode"Remove this commented out code.(ÑÈÁùÿÿÿÿ
+Fjavascript:CommentedCode"Remove this commented out code.( à¶üÿÿÿÿ
+=javascript:S2228"Remove this logging statement.(Ÿ¢ÛÇüÿÿÿÿ
+8javascript:S2228"Remove this logging statement.(Øó®¹
+7javascript:S2228"Remove this logging statement.(¤
+=javascript:S2228"Remove this logging statement.(™¢Ëûÿÿÿÿ
+=javascript:S2228"Remove this logging statement.(ÏÛü×ùÿÿÿÿ
+8javascript:S2228"Remove this logging statement.(ÿªË
+=javascript:S2228"Remove this logging statement.(Ü¹í™ûÿÿÿÿ
+8javascript:S2228"Remove this logging statement.(êØƒó
+X!javascript:UnusedFunctionArgument"-Remove the unused function parameter "field".(«‚Ãá
+]!javascript:UnusedFunctionArgument"-Remove the unused function parameter "event".(…™êøÿÿÿÿ
+X!javascript:UnusedFunctionArgument"-Remove the unused function parameter "event".(¡ƒ³§
+X!javascript:UnusedFunctionArgument"-Remove the unused function parameter "event".(Û¥ÿŸ
+X!javascript:UnusedFunctionArgument"-Remove the unused function parameter "field".(«‚Ãá
+X!javascript:UnusedFunctionArgument"-Remove the unused function parameter "event".(ùÇ„¬
+U!javascript:UnusedFunctionArgument"*Remove the unused function parameter "ui".(ùÇ„¬
+W!javascript:UnusedFunctionArgument",Remove the unused function parameter "data".(ùÇ„¬
+\!javascript:UnusedFunctionArgument",Remove the unused function parameter "link".(Éó«ìøÿÿÿÿ
+X!javascript:UnusedFunctionArgument"-Remove the unused function parameter "field".(«‚Ãá
+]!javascript:UnusedFunctionArgument"2Remove the unused function parameter "$rootScope".(æ²ñò
+X!javascript:UnusedFunctionArgument"-Remove the unused function parameter "event".(ùÇ„¬
+U!javascript:UnusedFunctionArgument"*Remove the unused function parameter "ui".(ùÇ„¬
+W!javascript:UnusedFunctionArgument",Remove the unused function parameter "data".(ùÇ„¬
+Z!javascript:UnusedFunctionArgument"/Remove the unused function parameter "$filter".(ùŒ‘¹
+_!javascript:UnusedFunctionArgument"/Remove the unused function parameter "segment".(çù®âûÿÿÿÿ
+W!javascript:UnusedFunctionArgument",Remove the unused function parameter "node".(ÖĞéÂ
+]!javascript:UnusedFunctionArgument"-Remove the unused function parameter "event".(ç¬ñüÿÿÿÿ
+Z!javascript:UnusedFunctionArgument"*Remove the unused function parameter "ui".(ç¬ñüÿÿÿÿ
+`!javascript:UnusedFunctionArgument"0Remove the unused function parameter "nodeData".(ç¬ñüÿÿÿÿ
+X!javascript:UnusedFunctionArgument"-Remove the unused function parameter "error".(ÛÁƒ—
+;javascript:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+;javascript:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+;javascript:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+;javascript:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+;javascript:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+6javascript:S1116"Remove this empty statement.(ë¶Š›
+;javascript:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+;javascript:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+Xjavascript:ForIn"9Restrict what this loop acts on by testing each property.(Ó¨œ“ÿÿÿÿÿ
+Xjavascript:ForIn"9Restrict what this loop acts on by testing each property.(Ó°òİùÿÿÿÿ
+Xjavascript:ForIn"9Restrict what this loop acts on by testing each property.(Ó¨œ“ÿÿÿÿÿ
+Xjavascript:ForIn"9Restrict what this loop acts on by testing each property.(Ó°òİùÿÿÿÿ
+i!javascript:ExcessiveParameterList">Function has 21 parameters which is greater than 7 authorized.(ÜÅÇÚ
+m!javascript:ExcessiveParameterList"=Function has 9 parameters which is greater than 7 authorized.(ÿ¬¬Ìúÿÿÿÿ
+i!javascript:ExcessiveParameterList">Function has 12 parameters which is greater than 7 authorized.(ë¶Š›
+n!javascript:ExcessiveParameterList">Function has 18 parameters which is greater than 7 authorized.(ê«ïùÿÿÿÿ
+Zjavascript:S1126"AReplace this if-then-else statement by a single return statement.(Š÷ñ
+`javascript:UnusedVariable"8Remove the declaration of the unused 'indexOf' variable.(‰šÔÃøÿÿÿÿ
+\javascript:UnusedVariable"4Remove the declaration of the unused 'ext' variable.(¥¯¼ùÿÿÿÿÿ
+^javascript:UnusedVariable";Remove the declaration of the unused 'searchById' variable.(‰ê‡
+Wjavascript:S1854"=Remove this useless assignment to local variable "searchById"(‰ê‡
+Yjavascript:S1854":Remove this useless assignment to local variable "indexOf"(‰šÔÃøÿÿÿÿ
+Ujavascript:S1854"6Remove this useless assignment to local variable "ext"(¥¯¼ùÿÿÿÿÿ
+cjavascript:OneStatementPerLine"6Reformat the code to have only one statement per line.(ÁØŠÈıÿÿÿÿ
+cjavascript:OneStatementPerLine"6Reformat the code to have only one statement per line.(‚­ÉÑüÿÿÿÿ
+^javascript:OneStatementPerLine"6Reformat the code to have only one statement per line.(÷òÁß
+cjavascript:OneStatementPerLine"6Reformat the code to have only one statement per line.(á˜‘”ÿÿÿÿÿ
+^javascript:OneStatementPerLine"6Reformat the code to have only one statement per line.(æö¬¾
+^javascript:OneStatementPerLine"6Reformat the code to have only one statement per line.(ãè…
+^javascript:OneStatementPerLine"6Reformat the code to have only one statement per line.(ãöŸµ
+^javascript:OneStatementPerLine"6Reformat the code to have only one statement per line.(öÓœÁ
+yjavascript:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(¥ßüÕúÿÿÿÿ
+yjavascript:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(¥ßüÕúÿÿÿÿ
+tjavascript:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(ûŞÛâ
+yjavascript:S1186"ZAdd a nested comment explaining why this function is empty or complete the implementation.(¥ßüÕúÿÿÿÿ

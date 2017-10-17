@@ -1,0 +1,551 @@
+<div ng-show="isAuthenticated()">
+    <!--<div class="row">-->
+    <div ng-show="!isPending()">
+        <div ng-controller="compareCtrl" style="padding-top:10px">
+            <div style="margin:5px">
+                <div class="panel">
+                    <div class="panel-heading" layout="row" style="padding-right: 40%;padding-left: 40%">
+                                    <md-select  class="select-auto" style="margin: auto !important;" flex="60" ng-model="toCmp"  ng-change="setCmpType(toCmp)" style="width: 100%;margin: auto" placeholder="Select Delta Type">
+                                        <md-option ng-repeat="cmpType in toCompare" value="{{cmpType.name}}">{{cmpType.alias}}</md-option>
+                                    </md-select>
+                    </div>
+                    <div class="panel-body" ng-show="cmpSeg == true || cmpVS == true || cmpDT == true || cmpMsg == true">
+                        <div class="col-md-8" >
+                            <div class="row" align="right" style="margin-bottom:0px">
+                                <div class="col-md-1">
+                                    <md-button ng-click="clearAll()" class="btn btn-raised btn-primary btn-xs"><i class="fa fa-times"></i> Clear All</md-button>
+                                </div>
+                                <div class="col-md-3">
+                                    <md-button ng-click="clearVersion()" class="btn btn-raised btn-default btn-xs"><i class="fa fa-times"></i> Clear Version</md-button>
+                                </div>
+                                <div class="col-md-4">
+                                    <md-button ng-click="clearScope()" class="btn btn-raised btn-default btn-xs"><i class="fa fa-times"></i> Clear Scope</md-button>
+                                </div>
+                                <div class="col-md-4">
+                                    <md-button ng-click="clearIG()" class="btn btn-raised btn-default btn-xs"><i class="fa fa-times"></i> Clear IG Document</md-button>
+                                </div>
+                            </div>
+                            <div class="row" align="center" style="margin-bottom:0px">
+                                <div class="col-md-1"><span class="badge badge-delta badge-delta-1">1</span></div>
+                                <div class="col-md-3">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Version</span>
+                                        <md-select ng-model="version1"  ng-change="setVersion1(version1)">
+                                        <md-option ng-repeat="vr in versions" value="{{vr}}"> {{vr}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Scope</span>
+                                        <md-select ng-model="scope1"ng-change="setScope1(scope1)">
+                                        <md-option ng-repeat="scope in scopes" value="{{scope.name}}"> {{scope.alias}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" style="overflow-x: auto" >
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">IG Document</span>
+                                        <md-select  ng-disabled="!scope1 || !version1||igDisabled1"  ng-model="ig1" ng-change="setIG1(ig1)">
+                                            <md-option ng-repeat="ig in igList1 track by ig.id" ng-value="ig">{{ig.title}}</md-option>
+                                        </md-select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" align="center">
+                                <div class="col-md-1"><span class="badge badge-delta badge-delta-2">2</span></div>
+                                <div class="col-md-3">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Version</span>
+                                        <md-select ng-model="version2"  ng-change="setVersion2(version2)">
+                                        <md-option ng-repeat="vr in versions" value='{{vr}}'> {{vr}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Scope</span>
+                                        <md-select ng-model="scope2"  ng-change="setScope2(scope2)">
+                                        <md-option ng-repeat="scope in scopes" value='{{scope.name}}'> {{scope.alias}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4" style="overflow-x: auto">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">IG Document</span>
+                                        <md-select ng-model="ig2" ng-change="setIG2(ig2)" ng-disabled="!scope2 || !version2 || igDisabled2">
+                                            <md-option ng-repeat="ig in igList2" ng-value="ig">{{ig.title}}</md-option>
+                                        </md-select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="padding-top:5px;padding-left:63%;margin-top: 0px;margin-bottom: 0px;">
+                                <div class="col-md-4" align="right" ng-show="cmpMsg">
+                                    <md-button ng-click="cmpMessage(msg1,msg2)" ng-disabled="!msg1 || !msg2||!msgChanged" class="md-raised md-primary">
+                                        <i class="fa fa-chevron-circle-right"></i> Compare</md-button>
+                                </div>
+                                <div class="col-md-4" align="right" ng-show="cmpSeg">
+                                    <md-button ng-click="cmpSegment(segment1,segment2)" ng-disabled="!segment1 || !segment2||!segChanged" class="md-raised md-primary">
+                                        <i class="fa fa-chevron-circle-right"></i> Compare</md-button>
+                                </div>
+                                <div class="col-md-4" align="right" ng-show="cmpDT">
+                                    <md-button ng-click="cmpDatatype(datatype1,datatype2)" ng-disabled="!datatype1 || !datatype2||!dtChanged" class="md-raised md-primary">
+                                        <i class="fa fa-chevron-circle-right"></i> Compare</md-button>
+                                </div>
+                                <div class="col-md-4" align="right" ng-show="cmpVS">
+                                    <md-button ng-click="cmpValueSet(table1,table2)" ng-disabled="!table1 || !table2||!vsChanged" class="md-raised md-primary">
+                                        <i class="fa fa-chevron-circle-right"></i> Compare</md-button>
+                                </div>
+                            </div>
+                            <!--<div class="row" style="padding-top:20px">
+                                <div class="input-group col-md-4">
+                                    <span class="input-group-addon" id="basic-addon1">Compare</span>
+                                    <select ng-model="toCmp" class="form-control" ng-change="setCmpType(toCmp)">
+                                        <option ng-repeat="cmpType in toCompare" value='{{cmpType.name}}'> {{cmpType.alias}}</option>
+                                    </select>
+                                </div>
+                            </div>-->
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row" style="margin-bottom:0px">
+                                <div class="col-md-1" align="right">
+                                    <md-button ng-click="clearMessage()" class="btn btn-raised btn-default btn-xs"><i class="fa fa-times"></i> Clear {{toCmp}}</md-button>
+                                </div>
+                            </div>
+                            <div class="row" align="center" style="margin-bottom:0px">
+                                <div class="col-md-9" ng-show="cmpMsg">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Message</span>
+                                        <md-select ng-model="msg1"  ng-change="setMsg1(msg1)" ng-disabled="!ig1">
+                                        <md-option ng-repeat="message in messages1 track by message.id" ng-disabled="disableMsg(message,msg2)" ng-hide="hideMsg(message,msg2)" ng-value="message"> {{message.name}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-9" ng-show="cmpSeg">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Segment</span>
+                                        <md-select ng-model="segment1" ng-change="setSegment1(segment1)" ng-disabled="!ig1">
+                                        <md-option ng-repeat="segment in segments1 track by segment.id" ng-disabled="disableSeg(segment,segment2)" ng-hide="hideSeg(segment,segment2)" ng-value="segment"> {{getLabel(segment)}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-9" ng-show="cmpDT">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Datatype</span>
+                                        <md-select ng-model="datatype1" ng-change="setDatatype1(datatype1)" ng-disabled="!ig1">
+                                        <md-option ng-repeat="datatype in datatypes1 track by datatype.id" ng-disabled="disableSeg(datatype,datatype2)" ng-hide="hideSeg(datatype,datatype2)" ng-value="datatype"> {{getLabel(datatype)}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-9" ng-show="cmpVS">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Value Set</span>
+                                        <md-select ng-model="table1" ng-change="setTable1(table1)" ng-disabled="!ig1">
+                                        <md-option ng-repeat="table in tables1 track by table.id" ng-disabled="disableSeg(table,table2)" ng-hide="hideSeg(table,table2)" ng-value="table"> {{table.bindingIdentifier}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" align="center" style="margin-bottom:0px">
+                                <div class=" col-md-9" ng-show="cmpMsg">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Message</span>
+                                        <md-select ng-model="msg2" ng-change="setMsg2(msg2)" ng-disabled="!ig2">
+                                        <md-option ng-repeat="message in messages2  track by message.id" ng-disabled="disableMsg(message,msg1)" ng-hide="hideMsg(message,msg1)" ng-value="message"> {{message.name}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-9" ng-show="cmpSeg">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Segment</span>
+                                        <md-select ng-model="segment2" ng-change="setSegment2(segment2)" ng-disabled="!ig2">
+                                        <md-option ng-repeat="segment in segments2  track by segment.id" ng-disabled="disableSeg(segment,segment1)" ng-hide="hideSeg(segment,segment1)" ng-value="segment"> {{getLabel(segment)}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-9" ng-show="cmpDT">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Datatype</span>
+                                        <md-select ng-model="datatype2"  ng-change="setDatatype2(datatype2)" ng-disabled="!ig2">
+                                        <md-option ng-repeat="datatype in datatypes2 track by datatype.id" ng-disabled="disableSeg(datatype,datatype1)" ng-hide="hideSeg(datatype,datatype1)" ng-value="datatype"> {{getLabel(datatype)}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                                <div class="col-md-9" ng-show="cmpVS">
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1">Value Set</span>
+                                        <md-select ng-model="table2" ng-change="setTable2(table2)" ng-disabled="!ig2">
+                                        <md-option ng-repeat="table in tables2 track by table.id" ng-disabled="disableSeg(table,table1)" ng-hide="hideSeg(table,table1)" ng-value="table"> {{table.bindingIdentifier}}</md-option>
+                                    </md-select>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div ng-show="loadingSelection" style="text-align: center;">
+                <i class="fa fa-spinner fa-pulse fa-align-center fa-2x"></i>
+            </div>
+            <div class="" style="margin:5px" ng-show="showDelta && !loadingSelection">
+                <div class="panel panel-primary">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading" align="center">
+                        <h3 class="panel-title" style="width:12%; margin:0 auto;">Delta Result</h3>
+                    </div>
+                    <div class="panel-body" ng-hide="vsTemplate">
+                        <table id="compareTable" tt-table tt-params="dynamic_params" class=" table-marginless table-bordered table-condensed">
+                            <thead>
+                                <tr class="tbl-header">
+                                    <th class="col-xs-1" rowspan="2" style="width:14%;">Position</th>
+                                    <th class="col-xs-2" rowspan="2" style="width:37%;">Name</th>
+                                    <th class="col-xs-1" rowspan="2" style="width:2%">Usage</th>
+                                    <th class="col-xs-1" colspan="2" style="width:4%">Cardinality</th>
+                                    <th class="col-xs-1" colspan="2" style="width:4%">Length</th>
+                                    <th class="col-xs-1" rowspan="2" style="width:2%">Conformance Length</th>
+                                    <th class="col-xs-1" rowspan="2" style="width:21%">Data Type</th>
+                                    <th class="col-xs-1" rowspan="2" style="width:16%">Value Set</th>
+                                </tr>
+                                <tr class="tbl-header">
+                                    <th class="col-xs-1 col-fixed-10" style="width:2%">min</th>
+                                    <th class="col-xs-1 col-fixed-10" style="width:2%">max</th>
+                                    <th class="col-xs-1 col-fixed-10" style="width:2%">min</th>
+                                    <th class="col-xs-1 col-fixed-10" style="width:2%">max</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <div class="panel-body" ng-show="vsTemplate">
+                        <table tt-table tt-params="valueSet_params" class=" table-marginless table-bordered table-condensed">
+                            <thead>
+                                <tr class="tbl-header">
+
+                                    <th class="col-xs-2">Name</th>
+                                    <th class="col-xs-1">Content Definition</th>
+                                    <th class="col-xs-1">Code System</th>
+                                    <th class="col-xs-1">Code Usage</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!--         <div ui-grid="gridOptions" ui-grid-tree-view class="uiGridStyle"></div>
+ -->
+            <!-- <pre ng-bind-html="diffValue"></pre> -->
+            <!-- <pre ng-bind-html="diffValueChanges"></pre> -->
+            <!-- <pre ng-bind-html="yourObjectOneJsonView"></pre>
+        <pre ng-bind-html="yourObjectTwoJsonView"></pre> -->
+        </div>
+    </div>
+</div>
+
+<div class="login-required-page" ng-show="!isAuthenticated()" style="font-size: 18px;text-align: center;margin:auto; width:90%; height:90%">
+    <p>Please <a href="" ng-click="loginReq()"><i class="fa fa-sign-in"></i>&nbsp;login</a> to access this page. You can also
+        <a href="#/registration"><i class="fa fa-chevron-circle-right"></i>&nbsp;register</a></p>
+</div>
+
+<script type="text/ng-template" id="tree_node">
+    <tr tt-node is-branch="node.fields!==undefined || node.segments!==undefined ||(node.components.length!==0 && node.components!==undefined)">
+        <td class="col-xs-1" style="width:14%">
+            <span ng-bind="node.position.element"></span>
+        </td>
+        <td class="col-xs-2" style="width:37%">
+            <table class=" table-borderless" ng-show="(node.label.element && (node.ext.element||node.ext.element===null) )||(node.label.element && !node.ext)">
+                <tr>
+                    <td class="col-sm-1">
+                        <span ng-show="node.type.element==='segmentRef'" class="label label-segment  label-icon lb-sm">S</span>
+                        <span ng-show="node.type.element==='segment'" class="label label-segment  label-icon lb-sm">S</span>
+                        <span ng-show="node.type.element==='group'" class="label label-success label-icon lb-sm">G</span>
+                        <span ng-show="node.type.element==='field'" class="label label-field label-icon lb-sm">F</span>
+                        <span ng-show="node.type.element==='component'" class="label label-component label-icon lb-sm">C</span>
+                        <span ng-bind="node.label.element"></span><span ng-show="node.description.element">:<span ng-bind="node.description.element"></span></span>
+                    </td>
+                </tr>
+            </table>
+            <table class=" table-borderless" ng-show="(node.label.element1 && node.label.element2) || (node.label.element && (node.ext.element1 || node.ext.element2))">
+                <tr style="background-color:#B5F7EC">
+                    <td class="col-sm-1">
+                        <span ng-show="node.type.element==='segmentRef'" class="label label-segment label-icon lb-sm" align="center">S</span>
+                        <span ng-show="node.type.element==='segment'" class="label label-segment label-icon lb-sm" align="center">S</span>
+                        <span ng-show="node.type.element==='group'" class="label label-success label-icon lb-sm">G</span>
+                        <span ng-show="node.type.element==='field'" class="label label-field label-icon lb-sm">F</span>
+                        <span ng-show="node.type.element==='component'" class="label label-component label-icon lb-sm">C</span>
+                        <span ng-show="node.type.element1==='group'" class="label label-success label-icon lb-sm">G</span>
+                        <span ng-show="node.type.element1==='segmentRef'" class="label label-segment label-icon lb-sm">S</span>
+                        <span ng-bind="node.label.element"></span>
+                        <span ng-bind="node.label.element1"></span>
+                        <span ng-show="node.ext.element1|| node.ext.element">_
+                        <span ng-show="node.ext.element1" ng-bind="node.ext.element1"></span>
+                        <span ng-show="node.ext.element" ng-bind="node.ext.element"></span>
+                        </span>
+                        <span ng-show="node.description">:
+                        <span ng-show="node.description.element1" ng-bind="node.description.element1"></span>
+                        <span ng-show="node.description.element" ng-bind="node.description.element"></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr style="background-color:#EDE1AF">
+                    <td class="col-sm-1">
+                        <span ng-show="node.type.element==='segmentRef'" class="label label-segment label-icon lb-sm" align="center">S</span>
+                        <span ng-show="node.type.element==='segment'" class="label label-segment label-icon lb-sm" align="center">S</span>
+                        <span ng-show="node.type.element==='group'" class="label label-success label-icon lb-sm">G</span>
+                        <span ng-show="node.type.element==='field'" class="label label-field label-icon lb-sm">F</span>
+                        <span ng-show="node.type.element==='component'" class="label label-component label-icon lb-sm">C</span>
+                        <span ng-show="node.type.element2==='group'" class="label label-success label-icon lb-sm">G</span>
+                        <span ng-show="node.type.element2==='segmentRef'" class="label label-segment label-icon  lb-sm">S</span>
+                        <span ng-show="node.type.element2==='segment'" class="label label-segment label-icon  lb-sm">S</span>
+                        <span ng-bind="node.label.element"></span>
+                        <span ng-bind="node.label.element2"></span>
+                        <span ng-show="node.ext.element2||node.ext.element">_
+                        <span ng-show="node.ext.element2" ng-bind="node.ext.element2"></span>
+                        <span ng-show="node.ext.element" ng-bind="node.ext.element"></span>
+                        </span>
+                        <span ng-show="node.description">:
+                        <span ng-show="node.description.element2" ng-bind="node.description.element2"></span>
+                        <span ng-show="node.description.element" ng-bind="node.description.element"></span>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="node.usage" style="width:2%">
+            <div align="center">
+                <table class=" table-borderless">
+                    <tr>
+                        <td class="col-md-1" style="background-color:#B5F7EC">
+                            <div align="center"> <span ng-bind="node.usage.element1"></span></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-1" style="background-color:#EDE1AF">
+                            <div align="center"> <span ng-bind="node.usage.element2"></span></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+        <td class="col-xs-1" ng-show="!node.usage" style="width:2%">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1" ng-show="node.minCard" style="width:2%">
+            <table class=" table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center"> <span ng-bind="node.minCard.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center"> <span ng-bind="node.minCard.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1 c" ng-show="!node.minCard" style="width:2%">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1" ng-show="node.maxCard" style="width:2%">
+            <table class="table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center"> <span ng-bind="node.maxCard.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center"> <span ng-bind="node.maxCard.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="!node.maxCard" style="width:2%">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1" ng-show="node.minLength" style="width:2%">
+            <table class=" table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center"> <span ng-bind="node.minLength.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center"> <span ng-bind="node.minLength.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="!node.minLength" style="width:2%">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1" ng-show="node.maxLength" style="width:2%">
+            <table class=" table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center"> <span ng-bind="node.maxLength.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center"> <span ng-bind="node.maxLength.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="!node.maxLength" style="width:2%">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1 col-fixed-20" ng-show="node.confLength" style="width:2%">
+            <table class=" table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center"> <span ng-bind="node.confLength.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center"> <span ng-bind="node.confLength.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="!node.confLength" style="width:2%">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1 col-fixed-20" ng-show="node.datatype" style="width:21%">
+            <table class=" table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center"> <span ng-bind="node.datatype.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center"> <span ng-bind="node.datatype.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="!node.datatype" style="width:21%">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1" ng-show="node.valuesets.length>0" style="width:16%">
+
+            <table class=" table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center" ng-repeat="table in node.valuesets"> <span ng-bind="table.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center" ng-repeat="table in node.valuesets"> <span ng-bind="table.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="node.valuesets.length<=0" style="width:16%">
+            <div align="center"> - </div>
+        </td>
+    </tr>
+</script>
+<script type="text/ng-template" id="valueSet_node">
+    <tr tt-node is-branch="node.codes!==undefined">
+        <td class="col-xs-2">
+            <table class=" table-borderless" ng-show="node.label.element && node.description.element">
+                <tr>
+                    <td class="col-sm-1">
+
+                        <span ng-bind="node.label.element"></span><span ng-show="node.description.element">:<span ng-bind="node.description.element"></span></span>
+                    </td>
+                </tr>
+            </table>
+            <table class=" table-borderless" ng-show="(node.label.element1 && node.label.element2)|| (node.description.element1 && node.description.element2)">
+                <tr style="background-color:#B5F7EC">
+                    <td class="col-sm-1">
+                        <span ng-bind="node.label.element"></span>
+                        <span ng-bind="node.label.element1"></span>
+
+                        <span ng-show="node.description">:
+                        <span ng-show="node.description.element1" ng-bind="node.description.element1"></span>
+                        <span ng-show="node.description.element" ng-bind="node.description.element"></span>
+                        </span>
+                    </td>
+                </tr>
+                <tr style="background-color:#EDE1AF">
+                    <td class="col-sm-1">
+                        <span ng-bind="node.label.element"></span>
+                        <span ng-bind="node.label.element2"></span>
+
+                        <span ng-show="node.description">:
+                        <span ng-show="node.description.element2" ng-bind="node.description.element2"></span>
+                        <span ng-show="node.description.element" ng-bind="node.description.element"></span>
+                        </span>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="node.contentDefinition">
+            <div align="center">
+                <table class=" table-borderless">
+                    <tr>
+                        <td class="col-md-1" style="background-color:#B5F7EC">
+                            <div align="center"> <span ng-bind="node.contentDefinition.element1"></span></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-1" style="background-color:#EDE1AF">
+                            <div align="center"> <span ng-bind="node.contentDefinition.element2"></span></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+        <td class="col-xs-1" ng-show="!node.contentDefinition">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1" ng-show="node.codeSystem">
+            <table class=" table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center"> <span ng-bind="node.codeSystem.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center"> <span ng-bind="node.codeSystem.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="!node.codeSystem">
+            <div align="center"> - </div>
+        </td>
+        <td class="col-xs-1" ng-show="node.codeUsage">
+            <table class="table-borderless">
+                <tr>
+                    <td class="col-md-1" style="background-color:#B5F7EC">
+                        <div align="center"> <span ng-bind="node.codeUsage.element1"></span></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-1" style="background-color:#EDE1AF">
+                        <div align="center"> <span ng-bind="node.codeUsage.element2"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td class="col-xs-1" ng-show="!node.codeUsage">
+            <div align="center"> - </div>
+        </td>
+
+    </tr>
+</script>
+<!--<script type="text/ng-template" id="expandableRowTemplate.html">
+    <div ng-controller="compareCtrl" ui-grid="row.entity.subGridOptions" style="height:150px;"></div>
+</script>
+-->
